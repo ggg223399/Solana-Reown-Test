@@ -4,7 +4,7 @@ import { SolanaAdapter } from '@reown/appkit-adapter-solana/react'
 
 
 // Get projectId from https://cloud.reown.com
-export const projectId = "e04798d0139c81c6b9c7c62f793e3639" // this is a public projectId only to use on localhost
+export const projectId = "b68a500fc29ff979e1a239b78320e6c6" // this is a public projectId only to use on localhost
 
 if (!projectId) {
   throw new Error('Project ID is not defined')
